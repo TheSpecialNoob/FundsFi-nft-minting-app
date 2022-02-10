@@ -427,7 +427,36 @@ function App() {
           >
             We have set the gas limit to {CONFIG.GAS_LIMIT} for the contract to
             successfully mint your NFT. We recommend that you don't lower the
-            gas limit.
+            gas limit. 
+          </s.TextDescription>
+          <s.SpacerSmall />
+          <s.TextDescription
+            style={{
+              textAlign: "center",
+              color: "var(--primary-text)",
+            }}
+          > 
+           More details: FUNDSrd1 = Funds Round 1 Presale NFT
+          </s.TextDescription>
+          <s.SpacerSmall />
+          <s.TextDescription
+            style={{
+              textAlign: "center",
+              color: "var(--primary-text)",
+            }}
+          > 
+           This is official FundsFi minting website for sales of Round 1 NFT. You will automatically 
+           be whitelisted for sale of FUNDS tokens on Round 1 if you purchase 1 of these NFT.
+          </s.TextDescription>
+          <s.SpacerSmall />
+          <s.TextDescription
+            style={{
+              textAlign: "center",
+              color: "var(--primary-text)",
+            }}
+          > 
+           Find more about Whitelisting Requirements, FUNDS Presale Terms in each round with prices on our Medium Post. 
+            
           </s.TextDescription>
         </s.Container>
       </s.Container>

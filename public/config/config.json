@@ -10,7 +10,7 @@
   "SYMBOL": "FUNDSrd1",
   "MAX_SUPPLY": 1,
   "WEI_COST": 4000000000000000000,
-  "DISPLAY_COST": 30,
+  "DISPLAY_COST": 100,
   "GAS_LIMIT": 285000,
   "MARKETPLACE": "FundsFi",
   "MARKETPLACE_LINK": "https://opensea.io/collection/the-stripes-nft",
