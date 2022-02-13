@@ -1,6 +1,6 @@
 {
-  "CONTRACT_ADDRESS": "0xB556c4fEa8695FC962bB3c613b7a0413a1Da44bB", 
-  "SCAN_LINK": "https://explorer.harmony.one/address/0x0ada6d40036b4e458f48d49a05e55bb261705a89?activeTab=7",
+  "CONTRACT_ADDRESS": "0xdd90295994357E85C573C859a6dADfF66B9D1339", 
+  "SCAN_LINK": "https://explorer.harmony.one/address/0xdd90295994357e85c573c859a6dadff66b9d1339?activeTab=7",
   "NETWORK": {
     "NAME": "Harmony",
     "SYMBOL": "ONE",
@@ -8,11 +8,11 @@
   },
   "NFT_NAME": "FundsFi Presale Round 1",
   "SYMBOL": "FUNDSrd1",
-  "MAX_SUPPLY": 1,
+  "MAX_SUPPLY": 100000,
   "WEI_COST": 4000000000000000000,
-  "DISPLAY_COST": 20,
+  "DISPLAY_COST": 100,
   "GAS_LIMIT": 285000,
   "MARKETPLACE": "FundsFi",
-  "MARKETPLACE_LINK": "https://explorer.harmony.one/address/0x135f763c5fa7354f62b2b5bec662daa3f69c80dc?activeTab=7",
+  "MARKETPLACE_LINK": "https://explorer.harmony.one/address/0xdd90295994357e85c573c859a6dadff66b9d1339?activeTab=7",
   "SHOW_BACKGROUND": true
 }
