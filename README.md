@@ -6,7 +6,7 @@ All the code in these repos was created and explained by HashLips on the main Yo
 
 To find out more please visit:
 
-# The Stripes NFT minting dapp 🔥
+# The FundsFi NFT minting dapp 🔥
 
 This repo provides a nice and easy way for linking an existing NFT smart contract to this minting dapp. There are two ways of using this repo, you can go the simple route or the more complex one.
 
@@ -40,21 +40,21 @@ Note: this dapp is designed to work with the intended NFT smart contract, that o
 
 ```json
 {
-  "CONTRACT_ADDRESS": "0x827acb09a2dc20e39c9aad7f7190d9bc53534192",
-  "SCAN_LINK": "https://polygonscan.com/token/0x827acb09a2dc20e39c9aad7f7190d9bc53534192",
+ "CONTRACT_ADDRESS": "0xdd90295994357E85C573C859a6dADfF66B9D1339", 
+  "SCAN_LINK": "https://explorer.harmony.one/address/0xdd90295994357e85c573c859a6dadff66b9d1339?activeTab=7",
   "NETWORK": {
-    "NAME": "Polygon",
-    "SYMBOL": "Matic",
-    "ID": 137
+    "NAME": "Harmony",
+    "SYMBOL": "ONE",
+    "ID": 1666600000
   },
-  "NFT_NAME": "The Stripes NFT",
-  "SYMBOL": "TSNFT",
-  "MAX_SUPPLY": 992,
-  "WEI_COST": 75000000000000000,
-  "DISPLAY_COST": 0.075,
-  "GAS_LIMIT": 285000,
-  "MARKETPLACE": "Opeansea",
-  "MARKETPLACE_LINK": "https://opensea.io/collection/the-stripes-nft",
+  "NFT_NAME": "FundsFi Presale Round 1",
+  "SYMBOL": "FUNDSrd1",
+  "MAX_SUPPLY": 10000000,
+  "WEI_COST": 100000000000000000000,
+  "DISPLAY_COST": 100,
+  "GAS_LIMIT": 985000,
+  "MARKETPLACE": "FundsFi",
+  "MARKETPLACE_LINK": "https://explorer.harmony.one/address/0xdd90295994357e85c573c859a6dadff66b9d1339?activeTab=7",
   "SHOW_BACKGROUND": true
 }
 ```
@@ -91,8 +91,8 @@ Also remember to update the short_name and name fields in the `public/manifest.j
 
 ```json
 {
-  "short_name": "TSNFT",
-  "name": "The Stripes NFT"
+  "short_name": "FUNDSrd1",
+  "name": "FundsFi Presale Round 1 NFT"
 }
 ```
 
