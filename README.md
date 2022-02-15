@@ -1,18 +1,10 @@
-# Welcome to The Stripes NFT 💎
+# Welcome to FundsFi NFT - Forked From The Stripes NFT
 
 ![](https://github.com/The-Stripes-NFT/nft-minting-app/blob/main/logo-blob.png)
 
 All the code in these repos was created and explained by HashLips on the main YouTube channel.
 
 To find out more please visit:
-
-[📺 YouTube](https://www.youtube.com/AliSolanki)
-
-[💬 Telegram](https://t.me/studentsamaj)
-
-[🐦 Twitter](https://twitter.com/thestripesnft)
-
-[ℹ️ Website](https://thestripesnft.com/)
 
 # The Stripes NFT minting dapp 🔥
 
