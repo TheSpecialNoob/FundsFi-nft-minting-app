@@ -2,6 +2,22 @@
 
 ![](https://github.com/The-Stripes-NFT/nft-minting-app/blob/main/FundsFiLogoNFTMinting.png)
 
+CONTRACT_ADDRESS": "0xdd90295994357E85C573C859a6dADfF66B9D1339", 
+SCAN_LINK": "https://explorer.harmony.one/address/0xdd90295994357e85c573c859a6dadff66b9d1339?activeTab=7",
+  "NETWORK": 
+    "NAME": "Harmony",
+    "SYMBOL": "ONE",
+    "ID": 1666600000
+  
+  "NFT_NAME": "FundsFi Presale Round 1",
+  "SYMBOL": "FUNDSrd1",
+  "MAX_SUPPLY": 10000000,
+  "WEI_COST": 100000000000000000000,
+  "DISPLAY_COST": 100,
+  "GAS_LIMIT": 985000,
+  "MARKETPLACE": "FundsFi",
+  "MARKETPLACE_LINK": "https://explorer.harmony.one/address/0xdd90295994357e85c573c859a6dadff66b9d1339?activeTab=7"
+
 All the code in these repos was created and explained by HashLips on the main YouTube channel.
 
 To find out more please visit:
