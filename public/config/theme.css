@@ -1,3 +1,4 @@
+
 :root {
   --primary: #000000;
   --primary-text: #ffffff;
@@ -21,4 +22,11 @@
   padding-right: 10%;
   padding-left: 1%;
   
+}
+
+.coinvote {
+  margin-left:200px;
+  margin-right:200px;
+  margin-top: -1000px;
+  margin-bottom:-1000px;
 }
