@@ -295,12 +295,71 @@ function App() {
                   1 {CONFIG.SYMBOL} costs {CONFIG.DISPLAY_COST}{" "}
                   {CONFIG.NETWORK.SYMBOL}.
                 </s.TextTitle>
-                <s.SpacerXSmall />
+
+                            
+    
                 <s.TextDescription
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
                   Excluding gas fees.
                 </s.TextDescription>
+
+                <s.SpacerXSmall />
+                <s.TextDescription
+                  style={{ textAlign: "center", color: "var(--accent-text)" }}
+                >
+                  Max Buy Per User 10K NFT's For 100K $FUNDS
+                </s.TextDescription>
+                
+
+                <s.SpacerXSmall />
+                <s.TextDescription
+                  style={{ textAlign: "center", color: "var(--accent-text)" }}
+                >
+                  1 FUNDSSale1 NFT = 10 FUNDS.
+                </s.TextDescription>
+                
+
+                <s.SpacerXSmall />
+                <s.TextDescription
+                  style={{ textAlign: "center", color: "var(--accent-text)" }}
+                >
+                  10 FUNDS = $1
+                </s.TextDescription>
+                 
+
+                <s.SpacerXSmall />
+                <s.TextDescription
+                  style={{ textAlign: "center", color: "var(--accent-text)" }}
+                >
+                  1 FUNDS Cost: $0.10
+                </s.TextDescription>
+               
+                <s.SpacerXSmall />
+                <s.TextDescription
+                  style={{ textAlign: "center", color: "var(--accent-text)" }}
+                >
+                  (If you buy 5 of these NFT's you will get 50 FUNDS)
+                </s.TextDescription>
+               
+
+                <s.SpacerXSmall />
+                <s.TextDescription
+                  style={{ textAlign: "center", color: "var(--accent-text)" }}
+                >
+                  FUNDSSale1 Total Supply = 1,000,000
+                </s.TextDescription>
+                
+
+                <s.SpacerXSmall />
+                <s.TextDescription
+                  style={{ textAlign: "center", color: "var(--accent-text)" }}
+                >
+                  Round 1 Sale $FUNDS Total Supply = 10,000,000
+                </s.TextDescription>
+                
+
+
                 <s.SpacerSmall />
                 {blockchain.account === "" ||
                 blockchain.smartContract === null ? (
@@ -437,27 +496,8 @@ function App() {
               color: "var(--primary-text)",
             }}
           > 
-           More details: FUNDSrd1 = Funds Round 1 Presale NFT
-          </s.TextDescription>
-          <s.SpacerSmall />
-          <s.TextDescription
-            style={{
-              textAlign: "center",
-              color: "var(--primary-text)",
-            }}
-          > 
-           This is official FundsFi minting website for sales of Round 1 NFT. You will automatically 
+           This is official FundsFi minting website for sales of Round 1 $FUNDS. You will automatically 
            be whitelisted for sale of FUNDS tokens on Round 1 if you purchase 1 of these NFT.
-          </s.TextDescription>
-          <s.SpacerSmall />
-          <s.TextDescription
-            style={{
-              textAlign: "center",
-              color: "var(--primary-text)",
-            }}
-          > 
-           Find more about Whitelisting Requirements, FUNDS Presale Terms in each round with prices on our Medium Post. 
-            
           </s.TextDescription>
         </s.Container>
       </s.Container>
