@@ -21,15 +21,16 @@
   padding-top: 1%;
   padding-right: 10%;
   padding-left: 1%;
-  margin-top:1500px;
-  margin-bottom: 1500px;
+  margin-top:-5px;
+  margin-bottom: -5px;
 }
 
 .coinvote {
-  margin-left:1200px;
-  margin-right:1200px;
-  margin-top: -2400px;
-  margin-bottom:-2400px;
+  display: flex;
+  position:absolute;
+  float:right;
+  margin-top: -1000px;
+  margin-bottom:-1000px;
 }
 
 
