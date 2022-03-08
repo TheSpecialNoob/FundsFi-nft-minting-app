@@ -357,6 +357,13 @@ function App() {
                 >
                   The price of this NFT will increase over time. FundsFi NFT Contest Applies to this NFT. 
                 </s.TextDescription>
+
+                <s.SpacerXSmall />
+                <s.TextDescription
+                  style={{ textAlign: "center", color: "var(--accent-text)" }}
+                >
+                  You can view the NFT on the linked Github below!
+                </s.TextDescription>
                 
 
 
