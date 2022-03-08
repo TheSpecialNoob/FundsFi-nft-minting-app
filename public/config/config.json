@@ -8,7 +8,7 @@
   },
   "NFT_NAME": "FundsFi Project Supporters ",
   "SYMBOL": "FUNDSps",
-  "MAX_SUPPLY": 1000000,
+  "MAX_SUPPLY": 10000,
   "WEI_COST": 500000000000000000000,
   "DISPLAY_COST": 500,
   "GAS_LIMIT": 985000,
