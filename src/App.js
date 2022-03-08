@@ -308,7 +308,7 @@ function App() {
                 <s.TextDescription
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
-                  Buy this NFT to Become a FundsFi project Supporter!
+                  Buy this NFT to Become a FundsFi Project Supporter NFT to become a Project Supporter and get amazing benefits!
                 </s.TextDescription>
                 
 
@@ -363,6 +363,13 @@ function App() {
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
                   You can view the NFT on the linked Github below!
+                </s.TextDescription>
+
+                <s.SpacerXSmall />
+                <s.TextDescription
+                  style={{ textAlign: "center", color: "var(--accent-text)" }}
+                >
+                  You can only Buy 1 at a time!
                 </s.TextDescription>
                 
 
