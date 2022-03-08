@@ -1,6 +1,6 @@
 {
-  "CONTRACT_ADDRESS": "0xd08Fb19eb6a4326Be8204b45b3edfbd8F9e9466d", 
-  "SCAN_LINK": "https://explorer.harmony.one/address/0xd08Fb19eb6a4326Be8204b45b3edfbd8F9e9466d?activeTab=7",
+  "CONTRACT_ADDRESS": "0x09F0bc74831B78c311A1D366dd565FB4987D0E2a", 
+  "SCAN_LINK": "https://explorer.harmony.one/address/0x09F0bc74831B78c311A1D366dd565FB4987D0E2a?activeTab=7",
   "NETWORK": {
     "NAME": "Harmony",
     "SYMBOL": "ONE",
@@ -13,6 +13,6 @@
   "DISPLAY_COST": 500,
   "GAS_LIMIT": 985000,
   "MARKETPLACE": "FundsFi",
-  "MARKETPLACE_LINK": "https://explorer.harmony.one/address/0xd08Fb19eb6a4326Be8204b45b3edfbd8F9e9466d?activeTab=7",
+  "MARKETPLACE_LINK": "https://explorer.harmony.one/address/0x09F0bc74831B78c311A1D366dd565FB4987D0E2ad?activeTab=7",
   "SHOW_BACKGROUND": true
 }
