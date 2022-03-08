@@ -308,7 +308,7 @@ function App() {
                 <s.TextDescription
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
-                  Max Buy Per User 10K NFT's For 100K $FUNDS
+                  Buy this NFT to Become a FundsFi project Supporter!
                 </s.TextDescription>
                 
 
@@ -316,7 +316,7 @@ function App() {
                 <s.TextDescription
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
-                  1 FUNDSSale1 NFT = 10 FUNDS.
+                  Benefits: 
                 </s.TextDescription>
                 
 
@@ -324,7 +324,7 @@ function App() {
                 <s.TextDescription
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
-                  10 FUNDS = $1
+                  Higher APY in FundsFi Staking Pools
                 </s.TextDescription>
                  
 
@@ -332,14 +332,14 @@ function App() {
                 <s.TextDescription
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
-                  1 FUNDS Cost: $0.10
+                  Higher APY in FundsFi Vaults
                 </s.TextDescription>
                
                 <s.SpacerXSmall />
                 <s.TextDescription
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
-                  (If you buy 5 of these NFT's you will get 50 FUNDS)
+                  Higher APY in FundsFi Banks
                 </s.TextDescription>
                
 
@@ -347,7 +347,7 @@ function App() {
                 <s.TextDescription
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
-                  FUNDSSale1 Total Supply = 1,000,000
+                  Higher APY in FundsFi Games (Much More Coming Soon)
                 </s.TextDescription>
                 
 
@@ -355,7 +355,7 @@ function App() {
                 <s.TextDescription
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
-                  Round 1 Sale $FUNDS Total Supply = 10,000,000
+                  The price of this NFT will increase over time. FundsFi NFT Contest Applies to this NFT. 
                 </s.TextDescription>
                 
 
