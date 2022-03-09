@@ -1,6 +1,6 @@
 # Welcome to FundsFi Project Supporter NFT
 
-![Project Supporter Image](https://github.com/TheSpecialNoob/FundsFi-project-supporter/blob/main/Project_Supporter-NFT.jpg)
+
 
 
 CONTRACT_ADDRESS": "0xdd90295994357E85C573C859a6dADfF66B9D1339", 
