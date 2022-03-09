@@ -1,22 +1,27 @@
-# Welcome to FundsFi NFT - Forked From The Stripes NFT
+# Welcome to FundsFi Project Supporter NFT
 
-![](https://github.com/The-Stripes-NFT/nft-minting-app/blob/main/FundsFiLogoNFTMinting.png)
 
-CONTRACT_ADDRESS": "0xdd90295994357E85C573C859a6dADfF66B9D1339", 
-SCAN_LINK": "https://explorer.harmony.one/address/0xdd90295994357e85c573c859a6dadff66b9d1339?activeTab=7",
-  "NETWORK": 
+
+
+{
+  "CONTRACT_ADDRESS": "0xd08Fb19eb6a4326Be8204b45b3edfbd8F9e9466d", 
+  "SCAN_LINK": "https://explorer.harmony.one/address/0xd08Fb19eb6a4326Be8204b45b3edfbd8F9e9466d?activeTab=7",
+  "NETWORK": {
     "NAME": "Harmony",
     "SYMBOL": "ONE",
     "ID": 1666600000
-  
-  "NFT_NAME": "FundsFi Presale Round 1",
-  "SYMBOL": "FUNDSrd1",
-  "MAX_SUPPLY": 10000000,
-  "WEI_COST": 100000000000000000000,
-  "DISPLAY_COST": 100,
+  },
+  "NFT_NAME": "FUNDS Sale Round 1 (1 FUNDSSale1 = 10 $FUNDS)",
+  "SYMBOL": "FUNDSSale1",
+  "MAX_SUPPLY": 1000000,
+  "WEI_COST": 8000000000000000000,
+  "DISPLAY_COST": 8,
   "GAS_LIMIT": 985000,
   "MARKETPLACE": "FundsFi",
-  "MARKETPLACE_LINK": "https://explorer.harmony.one/address/0xdd90295994357e85c573c859a6dadff66b9d1339?activeTab=7"
+  "MARKETPLACE_LINK": "https://explorer.harmony.one/address/0xd08Fb19eb6a4326Be8204b45b3edfbd8F9e9466d?activeTab=7",
+  "SHOW_BACKGROUND": true
+}
+
 
 All the code in these repos was created and explained by HashLips on the main YouTube channel.
 
@@ -35,7 +40,7 @@ The more complex route allows you to add additional functionality if you are com
 If you are cloning the project then run this first, otherwise you can download the source code on the release page and skip this step.
 
 ```sh
-git clone https://github.com/The-Stripes-NFT/nft-minting-app.git
+git clone https://github.com/TheSpecialNoob/FundsFi-project-supporter
 ```
 
 Make sure you have node.js installed so you can use npm, then run:
@@ -99,16 +104,16 @@ Now you will need to create and change the `public/favicon.ico`, `public/logo192
 Remember to update the title and description the `public/index.html` file
 
 ```html
-<title>The Stripes NFT</title>
-<meta name="description" content="Mint your Stripes NFT" />
+<title>FundsFi Project Supporter</title>
+<meta name="description" content="Mint your FundsFi Project Supporter NFT" />
 ```
 
 Also remember to update the short_name and name fields in the `public/manifest.json` file
 
 ```json
 {
-  "short_name": "FUNDSrd1",
-  "name": "FundsFi Presale Round 1 NFT"
+  "short_name": "FUNDSps",
+  "name": "FundsFi Project Supporter"
 }
 ```
 
@@ -127,3 +132,5 @@ npm run build
 Now you can host the contents of the build folder on a server.
 
 That's it! you're done.
+
+
