@@ -37,4 +37,13 @@
 
 h1 {
   color: white;
+  
+}
+
+.coinvote {
+  margin-left:200px;
+  margin-right:200px;
+  margin-top: -1000px;
+  margin-bottom:-1000px;
+
 }
