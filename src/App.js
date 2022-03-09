@@ -295,9 +295,7 @@ function App() {
                   1 {CONFIG.SYMBOL} costs {CONFIG.DISPLAY_COST}{" "}
                   {CONFIG.NETWORK.SYMBOL}.
                 </s.TextTitle>
-
-                            
-    
+                <s.SpacerXSmall />
                 <s.TextDescription
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
@@ -310,7 +308,7 @@ function App() {
                 >
                   Buy this NFT to Become a FundsFi Project Supporter NFT to become a Project Supporter and get amazing benefits!
                 </s.TextDescription>
-                
+                <s.SpacerSmall />
 
                 <s.SpacerXSmall />
                 <s.TextDescription
@@ -318,15 +316,6 @@ function App() {
                 >
                   Benefits: 
                 </s.TextDescription>
-                
-
-                <s.SpacerXSmall />
-                <s.TextDescription
-                  style={{ textAlign: "center", color: "var(--accent-text)" }}
-                >
-                  Higher APY in FundsFi Staking Pools
-                </s.TextDescription>
-                 
 
                 <s.SpacerXSmall />
                 <s.TextDescription
@@ -334,14 +323,14 @@ function App() {
                 >
                   Higher APY in FundsFi Vaults
                 </s.TextDescription>
-               
+
                 <s.SpacerXSmall />
                 <s.TextDescription
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
                   Higher APY in FundsFi Banks
                 </s.TextDescription>
-               
+
 
                 <s.SpacerXSmall />
                 <s.TextDescription
@@ -371,10 +360,7 @@ function App() {
                 >
                   You can only Buy 1 at a time!
                 </s.TextDescription>
-                
 
-
-                <s.SpacerSmall />
                 {blockchain.account === "" ||
                 blockchain.smartContract === null ? (
                   <s.Container ai={"center"} jc={"center"}>
@@ -510,7 +496,16 @@ function App() {
               color: "var(--primary-text)",
             }}
           > 
-           This is official FundsFi Project Supporters NFT minting website. You won't immediately get the role in discord but your wallet address will automatically get all of the benefits within our Daaps.
+          </s.TextDescription>
+          <s.SpacerSmall />
+          <s.TextDescription
+            style={{
+              textAlign: "center",
+              color: "var(--primary-text)",
+            }}
+          > 
+           Find more about Whitelisting Requirements, FUNDS Presale Terms in each round with prices on our Medium Post. 
+            
           </s.TextDescription>
         </s.Container>
       </s.Container>
