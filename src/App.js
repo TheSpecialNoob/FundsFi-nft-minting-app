@@ -310,7 +310,7 @@ function App() {
                 </s.TextDescription>
                 <s.SpacerSmall />
 
-                <s.SpacerXSmall />
+                
                 <s.TextDescription
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
@@ -476,15 +476,7 @@ function App() {
             gas limit. 
           </s.TextDescription>
           <s.SpacerSmall />
-          <s.TextDescription
-            style={{
-              textAlign: "center",
-              color: "var(--primary-text)",
-            }}
-          > 
-           More details: FUNDSrd1 = Funds Round 1 Presale NFT
-          </s.TextDescription>
-          <s.SpacerSmall />
+    
           <s.TextDescription
             style={{
               textAlign: "center",
