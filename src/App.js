@@ -491,8 +491,8 @@ function App() {
               color: "var(--primary-text)",
             }}
           > 
-           This is official FundsFi minting website for sales of Round 1 NFT. You will automatically 
-           be whitelisted for sale of FUNDS tokens on Round 1 if you purchase 1 of these NFT.
+           This is official FundsFi minting website for sales of Round 1 $FUNDS. You will automatically 
+           be airdroped $FUNDS after presale of $FUNDS by the vesting term.
           </s.TextDescription>
           <s.SpacerSmall />
           <s.TextDescription
