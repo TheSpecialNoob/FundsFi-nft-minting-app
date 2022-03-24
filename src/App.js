@@ -5,7 +5,6 @@ import { fetchData } from "./redux/data/dataActions";
 import * as s from "./styles/globalStyles";
 import styled from "styled-components";
 
-
 const truncate = (input, len) =>
   input.length > len ? `${input.substring(0, len)}...` : input;
 
@@ -146,7 +145,7 @@ function App() {
       .then((receipt) => {
         console.log(receipt);
         setFeedback(
-          `WOW, the ${CONFIG.NFT_NAME} is yours! go visit Harmony Explorer to view it.`
+          `WOW, the ${CONFIG.NFT_NAME} is yours! go visit Opensea.io to view it.`
         );
         setClaimingNft(false);
         dispatch(fetchData(blockchain.account));
@@ -275,7 +274,7 @@ function App() {
                 <s.TextTitle
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
-                  The sale has ended.
+                 FundsFi Project Supporters NFT
                 </s.TextTitle>
                 <s.TextDescription
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
@@ -306,61 +305,47 @@ function App() {
                 <s.TextDescription
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
-                  Buy this NFT to Become a FundsFi Project Supporter NFT to become a Project Supporter and get amazing benefits!
+                  Buy the FundsFi Project Supporters NFT to amazing Benefits within our Dapps!
                 </s.TextDescription>
+
+                <s.SpacerXSmall />
+                <s.TextDescription
+                  style={{ textAlign: "center", color: "var(--accent-text)" }}
+                >
+                  Benefits:
+                </s.TextDescription>
+
+                <s.SpacerXSmall />
+                <s.TextDescription
+                  style={{ textAlign: "center", color: "var(--accent-text)" }}
+                >
+                  - Higher APY in Staking Pools
+                </s.TextDescription>
+
+                <s.SpacerXSmall />
+                <s.TextDescription
+                  style={{ textAlign: "center", color: "var(--accent-text)" }}
+                >
+                  - Higher APY in Banks & Vaults
+                </s.TextDescription>
+
+                <s.SpacerXSmall />
+                <s.TextDescription
+                  style={{ textAlign: "center", color: "var(--accent-text)" }}
+                >
+                  - Higher Rewards in our P2E Games!
+                </s.TextDescription>
+
+                <s.SpacerXSmall />
+                <s.TextDescription
+                  style={{ textAlign: "center", color: "var(--accent-text)" }}
+                >
+                  Join Discord To Learn About Other Benefits!
+                </s.TextDescription>
+
+
+
                 <s.SpacerSmall />
-
-                
-                <s.TextDescription
-                  style={{ textAlign: "center", color: "var(--accent-text)" }}
-                >
-                  Benefits: 
-                </s.TextDescription>
-
-                <s.SpacerXSmall />
-                <s.TextDescription
-                  style={{ textAlign: "center", color: "var(--accent-text)" }}
-                >
-                  Higher APY in FundsFi Vaults
-                </s.TextDescription>
-
-                <s.SpacerXSmall />
-                <s.TextDescription
-                  style={{ textAlign: "center", color: "var(--accent-text)" }}
-                >
-                  Higher APY in FundsFi Banks
-                </s.TextDescription>
-
-
-                <s.SpacerXSmall />
-                <s.TextDescription
-                  style={{ textAlign: "center", color: "var(--accent-text)" }}
-                >
-                  Higher APY in FundsFi Games (Much More Coming Soon)
-                </s.TextDescription>
-                
-
-                <s.SpacerXSmall />
-                <s.TextDescription
-                  style={{ textAlign: "center", color: "var(--accent-text)" }}
-                >
-                  The price of this NFT will increase over time. FundsFi NFT Contest Applies to this NFT. 
-                </s.TextDescription>
-
-                <s.SpacerXSmall />
-                <s.TextDescription
-                  style={{ textAlign: "center", color: "var(--accent-text)" }}
-                >
-                  You can view the NFT on the linked Github below!
-                </s.TextDescription>
-
-                <s.SpacerXSmall />
-                <s.TextDescription
-                  style={{ textAlign: "center", color: "var(--accent-text)" }}
-                >
-                  You can only Buy 1 at a time!
-                </s.TextDescription>
-
                 {blockchain.account === "" ||
                 blockchain.smartContract === null ? (
                   <s.Container ai={"center"} jc={"center"}>
@@ -487,31 +472,7 @@ function App() {
           >
             We have set the gas limit to {CONFIG.GAS_LIMIT} for the contract to
             successfully mint your NFT. We recommend that you don't lower the
-            gas limit. 
-          </s.TextDescription>
-          <s.SpacerSmall />
-    
-          <s.TextDescription
-            style={{
-              textAlign: "center",
-              color: "var(--primary-text)",
-            }}
-          > 
-
-           This is official FundsFi minting website for sales of Round 1 $FUNDS. You will automatically 
-           be airdroped $FUNDS after presale of $FUNDS by the vesting term.
-
-
-          </s.TextDescription>
-          <s.SpacerSmall />
-          <s.TextDescription
-            style={{
-              textAlign: "center",
-              color: "var(--primary-text)",
-            }}
-          > 
-           Find more about Whitelisting Requirements, FUNDS Presale Terms in each round with prices on our Medium Post. 
-            
+            gas limit.
           </s.TextDescription>
         </s.Container>
       </s.Container>
