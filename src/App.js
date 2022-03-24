@@ -497,11 +497,11 @@ function App() {
               color: "var(--primary-text)",
             }}
           > 
-<<<<<<< HEAD
+
            This is official FundsFi minting website for sales of Round 1 $FUNDS. You will automatically 
            be airdroped $FUNDS after presale of $FUNDS by the vesting term.
-=======
->>>>>>> parent of 1c27780 (Commit)
+
+
           </s.TextDescription>
           <s.SpacerSmall />
           <s.TextDescription
