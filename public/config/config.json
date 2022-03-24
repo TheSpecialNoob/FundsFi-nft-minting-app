@@ -1,18 +1,18 @@
 {
-  "CONTRACT_ADDRESS": "0xd08Fb19eb6a4326Be8204b45b3edfbd8F9e9466d", 
-  "SCAN_LINK": "https://explorer.harmony.one/address/0xd08Fb19eb6a4326Be8204b45b3edfbd8F9e9466d?activeTab=7",
+  "CONTRACT_ADDRESS": "0x09F0bc74831B78c311A1D366dd565FB4987D0E2ad", 
+  "SCAN_LINK": "https://explorer.harmony.one/address/0x09F0bc74831B78c311A1D366dd565FB4987D0E2ad?activeTab=7",
   "NETWORK": {
     "NAME": "Harmony",
     "SYMBOL": "ONE",
     "ID": 1666600000
   },
-  "NFT_NAME": "FUNDS Sale Round 1 (1 FUNDSSale1 = 10 $FUNDS)",
-  "SYMBOL": "FUNDSSale1",
+  "NFT_NAME": "FundsFi Project Supporters ",
+  "SYMBOL": "FUNDSps",
   "MAX_SUPPLY": 1000000,
-  "WEI_COST": 8000000000000000000,
-  "DISPLAY_COST": 8,
+  "WEI_COST": 500000000000000000000,
+  "DISPLAY_COST": 500,
   "GAS_LIMIT": 985000,
   "MARKETPLACE": "FundsFi",
-  "MARKETPLACE_LINK": "https://explorer.harmony.one/address/0xd08Fb19eb6a4326Be8204b45b3edfbd8F9e9466d?activeTab=7",
+  "MARKETPLACE_LINK": "https://explorer.harmony.one/address/0x09F0bc74831B78c311A1D366dd565FB4987D0E2ad?activeTab=7",
   "SHOW_BACKGROUND": true
 }
