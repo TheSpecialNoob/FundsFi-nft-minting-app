@@ -306,7 +306,7 @@ function App() {
                 <s.TextDescription
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
-                  Max Buy Per User 10K NFT's For 100K $FUNDS
+                  Buy this NFT to Become a FundsFi Project Supporter NFT to become a Project Supporter and get amazing benefits!
                 </s.TextDescription>
                 <s.SpacerSmall />
 
@@ -314,21 +314,21 @@ function App() {
                 <s.TextDescription
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
-                  1 FUNDSSale1 NFT = 10 FUNDS.
+                  Benefits: 
                 </s.TextDescription>
 
                 <s.SpacerXSmall />
                 <s.TextDescription
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
-                  1 FUNDS Cost: $0.10
+                  Higher APY in FundsFi Vaults
                 </s.TextDescription>
 
                 <s.SpacerXSmall />
                 <s.TextDescription
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
-                  (If you buy 5 of these NFT's you will get 50 FUNDS)
+                  Higher APY in FundsFi Banks
                 </s.TextDescription>
 
 
@@ -336,7 +336,7 @@ function App() {
                 <s.TextDescription
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
-                  FUNDSSale1 Total Supply = 1,000,000
+                  Higher APY in FundsFi Games (Much More Coming Soon)
                 </s.TextDescription>
                 
 
@@ -344,7 +344,21 @@ function App() {
                 <s.TextDescription
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
-                  Round 1 Sale $FUNDS Total Supply = 10,000,000
+                  The price of this NFT will increase over time. FundsFi NFT Contest Applies to this NFT. 
+                </s.TextDescription>
+
+                <s.SpacerXSmall />
+                <s.TextDescription
+                  style={{ textAlign: "center", color: "var(--accent-text)" }}
+                >
+                  You can view the NFT on the linked Github below!
+                </s.TextDescription>
+
+                <s.SpacerXSmall />
+                <s.TextDescription
+                  style={{ textAlign: "center", color: "var(--accent-text)" }}
+                >
+                  You can only Buy 1 at a time!
                 </s.TextDescription>
 
                 {blockchain.account === "" ||
@@ -483,8 +497,11 @@ function App() {
               color: "var(--primary-text)",
             }}
           > 
+<<<<<<< HEAD
            This is official FundsFi minting website for sales of Round 1 $FUNDS. You will automatically 
            be airdroped $FUNDS after presale of $FUNDS by the vesting term.
+=======
+>>>>>>> parent of 1c27780 (Commit)
           </s.TextDescription>
           <s.SpacerSmall />
           <s.TextDescription
