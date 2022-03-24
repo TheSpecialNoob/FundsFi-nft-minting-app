@@ -1,4 +1,4 @@
-# Welcome to FundsFi Round 1 Presale of $FUNDS
+# Welcome to FundsFi Project Supporter NFT
 
 
 
