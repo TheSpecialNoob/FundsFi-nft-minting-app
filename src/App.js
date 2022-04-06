@@ -307,28 +307,28 @@ function App() {
                 <s.TextDescription
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
-                  Buy the FundsFi Project Supporters NFT to amazing Benefits within our Dapps!
+                 1 $FUNDS = $0.30
                 </s.TextDescription>
 
                 <s.SpacerXSmall />
                 <s.TextDescription
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
-                  Benefits:
+                  1 $FUNDSSale2 = 100 $FUNDS
                 </s.TextDescription>
 
                 <s.SpacerXSmall />
                 <s.TextDescription
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
-                  - Higher APY in Staking Pools
+                  
                 </s.TextDescription>
 
                 <s.SpacerXSmall />
                 <s.TextDescription
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
-                  - Higher APY in Banks & Vaults
+                  1 $FUNDSSale = 
                 </s.TextDescription>
 
                 <s.SpacerXSmall />
