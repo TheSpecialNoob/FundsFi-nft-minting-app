@@ -274,7 +274,7 @@ function App() {
                 <s.TextTitle
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
-                 FundsFi Project Supporters NFT
+                 FundsFi  $FUNDS Presale Round 2
                 </s.TextTitle>
                 <s.TextDescription
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
