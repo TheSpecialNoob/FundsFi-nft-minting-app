@@ -4,8 +4,6 @@ import { connect } from "./redux/blockchain/blockchainActions";
 import { fetchData } from "./redux/data/dataActions";
 import * as s from "./styles/globalStyles";
 import styled from "styled-components";
-import "bulma/sass/utilities/_all.sass";
-import "bulma/sass/grid/columns.sass";
 
 const truncate = (input, len) =>
   input.length > len ? `${input.substring(0, len)}...` : input;
@@ -314,38 +312,41 @@ function App() {
                 <s.TextDescription
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
-                  1 $FUNDSSale2 = 100 $FUNDS
+                  1 $FUNDSSale2 = 69 $FUNDS
                 </s.TextDescription>
 
                 <s.SpacerXSmall />
                 <s.TextDescription
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
-                  
+                   1 $FUNDSSale2 = 21 $ONE 
                 </s.TextDescription>
 
                 <s.SpacerXSmall />
                 <s.TextDescription
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
-                  1 $FUNDSSale = 
+                  Example: If you buy 50 $FUNDSSale2 = You will be airdropped 3450 $FUNDS
+                </s.TextDescription>
+                <s.SpacerXSmall />
+                <s.TextDescription
+                  style={{ textAlign: "center", color: "var(--accent-text)" }}
+                >
+                  You can buy multiple times in batches of 50 (This limit is for fast transactions)
+                </s.TextDescription>
+                <s.SpacerXSmall />
+                <s.TextDescription
+                  style={{ textAlign: "center", color: "var(--accent-text)" }}
+                >
+                  Max Buy Per User is 100K $FUNDS = 1450 $FUNDSSale2 
                 </s.TextDescription>
 
                 <s.SpacerXSmall />
                 <s.TextDescription
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
-                  - Higher Rewards in our P2E Games!
+                  You're Buying $FUNDSSale2 NFT which will automatically airdrop you $FUNDS at a later date.
                 </s.TextDescription>
-
-                <s.SpacerXSmall />
-                <s.TextDescription
-                  style={{ textAlign: "center", color: "var(--accent-text)" }}
-                >
-                  Join Discord To Learn About Other Benefits!
-                </s.TextDescription>
-
-
 
                 <s.SpacerSmall />
                 {blockchain.account === "" ||
