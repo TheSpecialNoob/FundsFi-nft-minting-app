@@ -321,6 +321,11 @@ function App() {
                 >
                    1 $FUNDSSale2 = 21 $ONE 
                 </s.TextDescription>
+                <s.TextDescription
+                  style={{ textAlign: "center", color: "var(--accent-text)" }}
+                >
+                   Total Sale: 50M $FUNDS = 724,638 $FUNDSSale2 
+                </s.TextDescription>
 
                 <s.SpacerXSmall />
                 <s.TextDescription
