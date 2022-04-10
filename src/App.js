@@ -352,6 +352,12 @@ function App() {
                 >
                   You're Buying $FUNDSSale2 NFT which will automatically airdrop you $FUNDS on April 29th. After all the presale rounds are over. Join discord to learn more!
                 </s.TextDescription>
+                <s.SpacerXSmall />
+                <s.TextDescription
+                  style={{ textAlign: "center", color: "var(--accent-text)" }}
+                >
+                 All $FUNDS in all of the presale rounds will be automatically airdropped to you after the presale ends!
+                </s.TextDescription>
 
                 <s.SpacerSmall />
                 {blockchain.account === "" ||
