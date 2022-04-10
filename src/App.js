@@ -350,7 +350,7 @@ function App() {
                 <s.TextDescription
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
-                  You're Buying $FUNDSSale2 NFT which will automatically airdrop you $FUNDS at a later date.
+                  You're Buying $FUNDSSale2 NFT which will automatically airdrop you $FUNDS on April 29th. After all the presale rounds are over. Join discord to learn more!
                 </s.TextDescription>
 
                 <s.SpacerSmall />
