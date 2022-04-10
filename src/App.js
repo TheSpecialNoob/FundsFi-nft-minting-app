@@ -356,7 +356,7 @@ function App() {
                 <s.TextDescription
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
-                 All $FUNDS in all of the presale rounds will be automatically airdropped to you after the presale ends!
+                 All $FUNDS sold in presale rounds will be automatically airdropped to you after the presale ends!
                 </s.TextDescription>
 
                 <s.SpacerSmall />
