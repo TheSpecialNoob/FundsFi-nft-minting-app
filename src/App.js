@@ -319,7 +319,7 @@ function App() {
                 <s.TextDescription
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
-                   1 $FUNDSSale2 = 21 $ONE 
+                   1 $FUNDSSale2 = $20 ~ 170 $ONE (According to Current Price)  
                 </s.TextDescription>
                 <s.TextDescription
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
