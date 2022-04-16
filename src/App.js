@@ -330,27 +330,17 @@ function App() {
                 <s.TextDescription
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
-                  1 $FUNDSSale2 = 17 $FUNDS
+                  1 $FUNDSSale2 = 17 $FUNDS = 45 $ONE
                 </s.TextDescription>
 
                 <s.SpacerXSmall />
-                <s.TextDescription
-                  style={{ textAlign: "center", color: "var(--accent-text)" }}
-                >
-                   1 $FUNDSSale2 = $5 ~ 45 $ONE (According to Current Price)  
-                </s.TextDescription>
                 <s.TextDescription
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
                    Total Sale: 50M $FUNDS = 724,638 $FUNDSSale2 
                 </s.TextDescription>
 
-                <s.SpacerXSmall />
-                <s.TextDescription
-                  style={{ textAlign: "center", color: "var(--accent-text)" }}
-                >
-                  Example: If you buy 50 $FUNDSSale2 = You will be airdropped 850 $FUNDS
-                </s.TextDescription>
+               
                 <s.SpacerXSmall />
                 <s.TextDescription
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
@@ -368,21 +358,9 @@ function App() {
                 <s.TextDescription
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
-                  You're Buying $FUNDSSale2 NFT which will automatically airdrop you $FUNDS on April 29th. After all the presale rounds are over. Join discord to learn more!
+                  Hodling $FUNDSSale2 NFT will automatically airdrop you $FUNDS on April 29th.
                 </s.TextDescription>
-                <s.SpacerXSmall />
-                <s.TextDescription
-                  style={{ textAlign: "center", color: "var(--accent-text)" }}
-                >
-                 All $FUNDS sold in presale rounds will be automatically airdropped to you after all of the presale rounds are over!
-                </s.TextDescription>
- 
-
-
-
-
-
-
+              
                 <s.SpacerSmall />
                 {blockchain.account === "" ||
                 blockchain.smartContract === null ? (
