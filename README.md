@@ -1,23 +1,24 @@
 # Welcome to FundsFi Project Supporter NFT
 
 {
-  "CONTRACT_ADDRESS": "0x80519B8B6C262cEb230E60725B751B0a28FAdB5f", 
-  "SCAN_LINK": "https://explorer.harmony.one/address/0x80519B8B6C262cEb230E60725B751B0a28FAdB5f?activeTab=7",
+  "CONTRACT_ADDRESS": "0x9559c36c5A71D3bB45AdCC3EAEE38de3F063fE4E", 
+  "SCAN_LINK": "https:/explorer.harmony.one/address/0x9559c36c5A71D3bB45AdCC3EAEE38de3F063fE4E",
   "NETWORK": {
-    "NAME": "Harmony",
+    "NAME": "Harmony Mainnet",
     "SYMBOL": "ONE",
     "ID": 1666600000
   },
-  "NFT_NAME": "FUNDS Sale Round 2",
+  "NFT_NAME": "FUNDS Presale Round 2 ",
   "SYMBOL": "FUNDSSale2",
-  "MAX_SUPPLY": 1000000,
+  "MAX_SUPPLY": 724638,
   "WEI_COST": 45000000000000000000,
   "DISPLAY_COST": 45,
   "GAS_LIMIT": 985000,
   "MARKETPLACE": "FundsFi",
-  "MARKETPLACE_LINK": "https://explorer.harmony.one/address/0x80519B8B6C262cEb230E60725B751B0a28FAdB5f?activeTab=7",
+  "MARKETPLACE_LINK": "https:/explorer.harmony.one/address/0x9559c36c5A71D3bB45AdCC3EAEE38de3F063fE4E",
   "SHOW_BACKGROUND": true
 }
+
 
 
 All the code in these repos was created and explained by HashLips on the main YouTube channel.
@@ -58,23 +59,24 @@ Note: this dapp is designed to work with the intended NFT smart contract, that o
 
 ```json
 {
- "CONTRACT_ADDRESS": "0x80519B8B6C262cEb230E60725B751B0a28FAdB5f", 
-  "SCAN_LINK": "https://explorer.harmony.one/address/0x80519B8B6C262cEb230E60725B751B0a28FAdB5f?activeTab=7",
+  "CONTRACT_ADDRESS": "0x9559c36c5A71D3bB45AdCC3EAEE38de3F063fE4E", 
+  "SCAN_LINK": "https:/explorer.harmony.one/address/0x9559c36c5A71D3bB45AdCC3EAEE38de3F063fE4E",
   "NETWORK": {
-    "NAME": "Harmony",
+    "NAME": "Harmony Mainnet",
     "SYMBOL": "ONE",
     "ID": 1666600000
   },
-  "NFT_NAME": "FundsFi Presale Round 2",
+  "NFT_NAME": "FUNDS Presale Round 2 ",
   "SYMBOL": "FUNDSSale2",
-  "MAX_SUPPLY": 723638,
+  "MAX_SUPPLY": 724638,
   "WEI_COST": 45000000000000000000,
   "DISPLAY_COST": 45,
   "GAS_LIMIT": 985000,
   "MARKETPLACE": "FundsFi",
-  "MARKETPLACE_LINK": "https://explorer.harmony.one/address/0x80519B8B6C262cEb230E60725B751B0a28FAdB5f?activeTab=7",
+  "MARKETPLACE_LINK": "https:/explorer.harmony.one/address/0x9559c36c5A71D3bB45AdCC3EAEE38de3F063fE4E",
   "SHOW_BACKGROUND": true
 }
+
 ```
 
 Make sure you copy the contract ABI from remix and paste it in the `public/config/abi.json` file.
