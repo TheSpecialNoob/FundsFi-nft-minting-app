@@ -20,7 +20,6 @@
 }
 
 
-
 All the code in these repos was created and explained by HashLips on the main YouTube channel.
 
 To find out more please visit:
