@@ -111,7 +111,7 @@ function App() {
     },
     NFT_NAME: "",
     SYMBOL: "",
-    MAX_SUPPLY: 0,
+    MAX_SUPPLY: 1,
     WEI_COST: 0,
     DISPLAY_COST: 0,
     GAS_LIMIT: 0,
@@ -145,7 +145,7 @@ function App() {
       .then((receipt) => {
         console.log(receipt);
         setFeedback(
-          `WOW, the ${CONFIG.NFT_NAME} is yours! go visit Metatrone to view it.`
+          `WOW, the ${CONFIG.NFT_NAME} is yours! go visit ipfs or join discord to view it.`
         );
         setClaimingNft(false);
         dispatch(fetchData(blockchain.account));
@@ -274,7 +274,7 @@ function App() {
                 <s.TextTitle
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
-                 FundsFi  $FUNDS Presale Round 2
+                  The sale has ended.
                 </s.TextTitle>
                 <s.TextDescription
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
@@ -301,6 +301,24 @@ function App() {
                   Excluding gas fees.
                 </s.TextDescription>
 
+                <s.TextTitle
+                  style={{ textAlign: "center", color: "var(--accent-text)" }}
+                >
+                 FundsFi  $FUNDS Presale Round 2
+                </s.TextTitle>
+                <s.TextTitle
+                  style={{ textAlign: "center", color: "var(--accent-text)" }}
+                >
+                  1 {CONFIG.SYMBOL} costs {CONFIG.DISPLAY_COST}{" "}
+                  {CONFIG.NETWORK.SYMBOL}.
+                </s.TextTitle>
+                <s.SpacerXSmall />
+                <s.TextDescription
+                  style={{ textAlign: "center", color: "var(--accent-text)" }}
+                >
+                  Excluding gas fees.
+                </s.TextDescription>
+
                 <s.SpacerXSmall />
                 <s.TextDescription
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
@@ -312,14 +330,14 @@ function App() {
                 <s.TextDescription
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
-                  1 $FUNDSSale2 = 69 $FUNDS
+                  1 $FUNDSSale2 = 17 $FUNDS
                 </s.TextDescription>
 
                 <s.SpacerXSmall />
                 <s.TextDescription
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
-                   1 $FUNDSSale2 = $20 ~ 170 $ONE (According to Current Price)  
+                   1 $FUNDSSale2 = $5 ~ 45 $ONE (According to Current Price)  
                 </s.TextDescription>
                 <s.TextDescription
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
@@ -331,7 +349,7 @@ function App() {
                 <s.TextDescription
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
-                  Example: If you buy 50 $FUNDSSale2 = You will be airdropped 3450 $FUNDS
+                  Example: If you buy 50 $FUNDSSale2 = You will be airdropped 850 $FUNDS
                 </s.TextDescription>
                 <s.SpacerXSmall />
                 <s.TextDescription
@@ -343,7 +361,7 @@ function App() {
                 <s.TextDescription
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
-                  Max Buy Per User is 100K $FUNDS = 1450 $FUNDSSale2 
+                  Max Buy Per User is 100K $FUNDS = 5882 $FUNDSSale2 
                 </s.TextDescription>
 
                 <s.SpacerXSmall />
@@ -356,8 +374,14 @@ function App() {
                 <s.TextDescription
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
-                 All $FUNDS sold in presale rounds will be automatically airdropped to you after the presale ends!
+                 All $FUNDS sold in presale rounds will be automatically airdropped to you after all of the presale rounds are over!
                 </s.TextDescription>
+ 
+
+
+
+
+
 
                 <s.SpacerSmall />
                 {blockchain.account === "" ||

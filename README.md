@@ -1,24 +1,21 @@
 # Welcome to FundsFi Project Supporter NFT
 
-
-
-
 {
-  "CONTRACT_ADDRESS": "0xd08Fb19eb6a4326Be8204b45b3edfbd8F9e9466d", 
-  "SCAN_LINK": "https://explorer.harmony.one/address/0xd08Fb19eb6a4326Be8204b45b3edfbd8F9e9466d?activeTab=7",
+  "CONTRACT_ADDRESS": "0x80519B8B6C262cEb230E60725B751B0a28FAdB5f", 
+  "SCAN_LINK": "https://explorer.harmony.one/address/0x80519B8B6C262cEb230E60725B751B0a28FAdB5f?activeTab=7",
   "NETWORK": {
     "NAME": "Harmony",
     "SYMBOL": "ONE",
     "ID": 1666600000
   },
-  "NFT_NAME": "FUNDS Sale Round 1 (1 FUNDSSale1 = 10 $FUNDS)",
-  "SYMBOL": "FUNDSSale1",
+  "NFT_NAME": "FUNDS Sale Round 2",
+  "SYMBOL": "FUNDSSale2",
   "MAX_SUPPLY": 1000000,
-  "WEI_COST": 8000000000000000000,
-  "DISPLAY_COST": 8,
+  "WEI_COST": 45000000000000000000,
+  "DISPLAY_COST": 45,
   "GAS_LIMIT": 985000,
   "MARKETPLACE": "FundsFi",
-  "MARKETPLACE_LINK": "https://explorer.harmony.one/address/0xd08Fb19eb6a4326Be8204b45b3edfbd8F9e9466d?activeTab=7",
+  "MARKETPLACE_LINK": "https://explorer.harmony.one/address/0x80519B8B6C262cEb230E60725B751B0a28FAdB5f?activeTab=7",
   "SHOW_BACKGROUND": true
 }
 
@@ -61,21 +58,21 @@ Note: this dapp is designed to work with the intended NFT smart contract, that o
 
 ```json
 {
- "CONTRACT_ADDRESS": "0xdd90295994357E85C573C859a6dADfF66B9D1339", 
-  "SCAN_LINK": "https://explorer.harmony.one/address/0xdd90295994357e85c573c859a6dadff66b9d1339?activeTab=7",
+ "CONTRACT_ADDRESS": "0x80519B8B6C262cEb230E60725B751B0a28FAdB5f", 
+  "SCAN_LINK": "https://explorer.harmony.one/address/0x80519B8B6C262cEb230E60725B751B0a28FAdB5f?activeTab=7",
   "NETWORK": {
     "NAME": "Harmony",
     "SYMBOL": "ONE",
     "ID": 1666600000
   },
-  "NFT_NAME": "FundsFi Presale Round 1",
-  "SYMBOL": "FUNDSrd1",
-  "MAX_SUPPLY": 10000000,
-  "WEI_COST": 100000000000000000000,
-  "DISPLAY_COST": 100,
+  "NFT_NAME": "FundsFi Presale Round 2",
+  "SYMBOL": "FUNDSSale2",
+  "MAX_SUPPLY": 723638,
+  "WEI_COST": 45000000000000000000,
+  "DISPLAY_COST": 45,
   "GAS_LIMIT": 985000,
   "MARKETPLACE": "FundsFi",
-  "MARKETPLACE_LINK": "https://explorer.harmony.one/address/0xdd90295994357e85c573c859a6dadff66b9d1339?activeTab=7",
+  "MARKETPLACE_LINK": "https://explorer.harmony.one/address/0x80519B8B6C262cEb230E60725B751B0a28FAdB5f?activeTab=7",
   "SHOW_BACKGROUND": true
 }
 ```
