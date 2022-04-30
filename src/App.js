@@ -309,7 +309,7 @@ function App() {
                 <s.TextTitle
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
-                PRESALE HAS ENDED. Airdrops Have been sent for both Rounds! And LP Has been provided in SushiSwap!
+                PRESALE HAS ENDED. Airdrops Have been sent for both Rounds! And LP will be provided in SushiSwap or DefiKingdoms DEX no later than tonight! The community will decide which DEX to put the LP in. Join Discord to vote!
                 </s.TextTitle>
                 <s.TextTitle
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
