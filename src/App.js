@@ -309,6 +309,11 @@ function App() {
                 <s.TextTitle
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
+                PRESALE HAS ENDED. Airdrops Have been sent for both Rounds! And LP Has been provided in SushiSwap!
+                </s.TextTitle>
+                <s.TextTitle
+                  style={{ textAlign: "center", color: "var(--accent-text)" }}
+                >
                   1 {CONFIG.SYMBOL} costs {CONFIG.DISPLAY_COST}{" "}
                   {CONFIG.NETWORK.SYMBOL}.
                 </s.TextTitle>
@@ -374,15 +379,15 @@ function App() {
                       Connect to the {CONFIG.NETWORK.NAME} network
                     </s.TextDescription>
                     <s.SpacerSmall />
-                    <StyledButton
-                      onClick={(e) => {
-                        e.preventDefault();
-                        dispatch(connect());
-                        getData();
-                      }}
-                    >
-                      CONNECT
-                    </StyledButton>
+                    //
+                    //
+                    //
+                    //
+                    //
+                    //
+                    //
+                    //
+                
                     {blockchain.errorMsg !== "" ? (
                       <>
                         <s.SpacerSmall />
