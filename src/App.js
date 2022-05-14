@@ -359,7 +359,7 @@ function App() {
                         dispatch(connect());
                         getData();
                       }}
-                    >
+                   ></StyledButton>
                     {blockchain.errorMsg !== "" ? (
                       <>
                         <s.SpacerSmall />
