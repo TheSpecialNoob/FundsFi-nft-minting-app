@@ -325,6 +325,12 @@ function App() {
                 </s.TextDescription>
                                                    
                 <s.SpacerXSmall />
+                <s.SpacerXSmall />
+                <s.TextDescription
+                  style={{ textAlign: "center", color: "var(--accent-text)" }}
+                >
+                  There will be staking capabilities in the future for Dogios NFT to earn $FUNDS or $Partnered Project Tokens or $Stablecoins!
+                </s.TextDescription>
                 <s.TextDescription
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
