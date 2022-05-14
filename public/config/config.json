@@ -1,18 +1,19 @@
 {
-  "CONTRACT_ADDRESS": "0x9559c36c5A71D3bB45AdCC3EAEE38de3F063fE4E", 
-  "SCAN_LINK": "https:/explorer.harmony.one/address/0x9559c36c5A71D3bB45AdCC3EAEE38de3F063fE4E",
+  "CONTRACT_ADDRESS": "0x703b149Cd2A1c09CFCB7e2dd79B2D87235E6a55D", 
+  "SCAN_LINK": "https:/explorer.harmony.one/address/0x703b149Cd2A1c09CFCB7e2dd79B2D87235E6a55D",
   "NETWORK": {
     "NAME": "Harmony Mainnet",
     "SYMBOL": "ONE",
     "ID": 1666600000
   },
-  "NFT_NAME": "FUNDS Presale Round 2 ",
+  "NFT_NAME": "Dogios NFT",
   "SYMBOL": "FUNDSSale2",
-  "MAX_SUPPLY": 724638,
-  "WEI_COST": 45000000000000000000,
-  "DISPLAY_COST": 45,
+  "MAX_SUPPLY": 2000,
+  "WEI_COST": 100000000000000000000,
+  "DISPLAY_COST": 100,
   "GAS_LIMIT": 985000,
   "MARKETPLACE": "FundsFi",
-  "MARKETPLACE_LINK": "https:/explorer.harmony.one/address/0x9559c36c5A71D3bB45AdCC3EAEE38de3F063fE4E",
+  "MARKETPLACE_LINK": "https://tofunft.com/user/0x5Fd051194118D96C4E7A37c7E7e4f45B578c2bAA/items/in-wallet", 
   "SHOW_BACKGROUND": true
 }
+

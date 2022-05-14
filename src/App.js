@@ -304,12 +304,12 @@ function App() {
                 <s.TextTitle
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
-                 FundsFi  $FUNDS Presale Round 2
+                 Dogios NFT
                 </s.TextTitle>
                 <s.TextTitle
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
-                PRESALE HAS ENDED. Airdrops Have been sent for both Rounds! And LP will be provided in SushiSwap or DefiKingdoms DEX no later than tonight! The community will decide which DEX to put the LP in. Join Discord to vote!
+               A Brand New Collection On the Harmony Blockchain! Made By FundsFi!
                 </s.TextTitle>
                 <s.TextTitle
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
@@ -323,47 +323,12 @@ function App() {
                 >
                   Excluding gas fees.
                 </s.TextDescription>
-
+                                                   
                 <s.SpacerXSmall />
                 <s.TextDescription
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
-                 1 $FUNDS = $0.30
-                </s.TextDescription>
-
-                <s.SpacerXSmall />
-                <s.TextDescription
-                  style={{ textAlign: "center", color: "var(--accent-text)" }}
-                >
-                  1 $FUNDSSale2 = 17 $FUNDS = 45 $ONE
-                </s.TextDescription>
-
-                <s.SpacerXSmall />
-                <s.TextDescription
-                  style={{ textAlign: "center", color: "var(--accent-text)" }}
-                >
-                   Total Sale: 50M $FUNDS = 724,638 $FUNDSSale2 
-                </s.TextDescription>
-
-               
-                <s.SpacerXSmall />
-                <s.TextDescription
-                  style={{ textAlign: "center", color: "var(--accent-text)" }}
-                >
-                  You can buy multiple times in batches of 50 (This limit is for fast transactions)
-                </s.TextDescription>
-                <s.SpacerXSmall />
-                <s.TextDescription
-                  style={{ textAlign: "center", color: "var(--accent-text)" }}
-                >
-                  Max Buy Per User is 100K $FUNDS = 5882 $FUNDSSale2 
-                </s.TextDescription>
-
-                <s.SpacerXSmall />
-                <s.TextDescription
-                  style={{ textAlign: "center", color: "var(--accent-text)" }}
-                >
-                  Hodling $FUNDSSale2 NFT will automatically airdrop you $FUNDS on April 29th.
+                  HODLING DOGIOS might you some nice airdrops in the future! 😏
                 </s.TextDescription>
               
                 <s.SpacerSmall />
@@ -379,14 +344,78 @@ function App() {
                       Connect to the {CONFIG.NETWORK.NAME} network
                     </s.TextDescription>
                     <s.SpacerSmall />
-                    //
-                    //
-                    //
-                    //
-                    //
-                    //
-                    //
-                    //
+                    <StyledButton
+                      onClick={(e) => {
+                        e.preventDefault();
+                        dispatch(connect());
+                        getData();
+                      }}
+                    >
+                      CONNECT
+                    </StyledButton>
+                    <StyledButton
+                      onClick={(e) => {
+                        e.preventDefault();
+                        dispatch(connect());
+                        getData();
+                      }}
+                    >
+                      CONNECT
+                    </StyledButton>
+                    <StyledButton
+                      onClick={(e) => {
+                        e.preventDefault();
+                        dispatch(connect());
+                        getData();
+                      }}
+                    >
+                      CONNECT
+                    </StyledButton>
+                    <StyledButton
+                      onClick={(e) => {
+                        e.preventDefault();
+                        dispatch(connect());
+                        getData();
+                      }}
+                    >
+                      CONNECT
+                    </StyledButton>
+                    <StyledButton
+                      onClick={(e) => {
+                        e.preventDefault();
+                        dispatch(connect());
+                        getData();
+                      }}
+                    >
+                      CONNECT
+                    </StyledButton>
+                    <StyledButton
+                      onClick={(e) => {
+                        e.preventDefault();
+                        dispatch(connect());
+                        getData();
+                      }}
+                    >
+                      CONNECT
+                    </StyledButton>
+                    <StyledButton
+                      onClick={(e) => {
+                        e.preventDefault();
+                        dispatch(connect());
+                        getData();
+                      }}
+                    >
+                      CONNECT
+                    </StyledButton>
+                    <StyledButton
+                      onClick={(e) => {
+                        e.preventDefault();
+                        dispatch(connect());
+                        getData();
+                      }}
+                    >
+                      CONNECT
+                    </StyledButton>
                 
                     {blockchain.errorMsg !== "" ? (
                       <>
