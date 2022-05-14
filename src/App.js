@@ -359,13 +359,6 @@ function App() {
                     >
                       CONNECT
                     </StyledButton>
-                    <StyledButton
-                      onClick={(e) => {
-                        e.preventDefault();
-                        dispatch(connect());
-                        getData();
-                      }}
-                   ></StyledButton>
                     {blockchain.errorMsg !== "" ? (
                       <>
                         <s.SpacerSmall />
